@@ -2,10 +2,51 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
-  <title>Destek Sayfası</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Destek - Haini Kim</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    p {
+      font-size: 18px;
+    }
+    a.button {
+      display: inline-block;
+      padding: 12px 25px;
+      margin: 15px 0;
+      font-size: 18px;
+      color: white;
+      background-color: #007AFF;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+    }
+    a.button:hover {
+      background-color: #005BB5;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
 </head>
 <body>
-  <h1>Uygulama Destek</h1>
-  <p>Uygulamamızla ilgili destek almak için <a href="mailto:beldiadigital@gmail.com">beldiadigital@gmail.com</a> adresine e-posta gönderebilirsiniz.</p>
+  <h1>Haini Kim Uygulama Destek</h1>
+  <p>Uygulamamızla ilgili destek almak veya soru sormak için aşağıdaki butona tıklayabilirsiniz.</p>
+  <a href="mailto:beldiadigital@gmail.com" class="button">Destek E-Postası Gönder</a>
+
+  <footer>
+    <p>&copy; 2025 Beldia Digital</p>
+    <p><a href="privacy.html">Gizlilik Politikası</a></p>
+  </footer>
 </body>
 </html>
